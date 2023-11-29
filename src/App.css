@@ -1,0 +1,177 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.banner1{
+	background-image: url('../public/img/banner11.jpg');background-size: cover;background-position: center;background-attachment: fixed;
+  
+}
+
+
+
+.bctr{
+  background-color: #1d394baf;
+  height: 100%;
+}
+
+.text{
+  color:white;
+  text-decoration: none;
+  
+}
+
+.text:hover{
+  color:#fcb900
+}
+
+.butt{
+  background-color:#fcb900 ;
+}
+
+.butt:hover{
+  background-color:yellow ;
+  color: black;
+}
+
+.boxss{
+  box-shadow: 1px 1px 5px 1px;
+}
+
+
+.room1{
+	background-image: url('../public/img/room1.jpg');background-size: cover;background-position: center;height: 230px;border-radius: 5px 5px;
+}
+
+.room2{
+	background-image: url('../public/img/room2.jpg');background-size: cover;background-position: center;height: 230px;border-radius: 5px 5px;
+}
+
+.room3{
+	background-image: url('../public/img/room3.jpg');background-size: cover;background-position: center;height: 230px;border-radius: 5px 5px;
+}
+
+.room4{
+	background-image: url('../public/img/room4.jpg');background-size: cover;background-position: center;height: 230px;border-radius: 5px 5px;
+}
+
+.room5{
+	background-image: url('../public/img/room5.jpg');background-size: cover;background-position: center;height: 230px;border-radius: 5px 5px;
+}
+
+.room6{
+	background-image: url('../public/img/room6.jpg');background-size: cover;background-position: center;height: 230px;border-radius: 5px 5px;
+}
+
+.room7{
+	background-image: url('../public/img/room7.jpg');background-size: cover;background-position: center;height: 230px;border-radius: 5px 5px;
+}
+
+.room8{
+	background-image: url('../public/img/room8.jpg');background-size: cover;background-position: center;height: 230px;border-radius: 5px 5px;
+}
+
+.choice1{
+	background-image: url('../public/img/choice1.jpg');background-size: cover;background-position: center;height: 230px;
+}
+
+.choice2{
+	background-image: url('../public/img/choice2.jpg');background-size: cover;background-position: center;height: 230px;
+}
+
+.choice3{
+	background-image: url('../public/img/choice3.jpg');background-size: cover;background-position: center;height: 230px;
+}
+
+.choice4{
+	background-image: url('../public/img/choice4.jpg');background-size: cover;background-position: center;height: 230px;
+}
+
+.bctrr{
+  background-color:#0000004a;
+  height: 100%;
+  border-radius: 5px 5px;
+}
+
+.bctrrr{
+  background-color:#0000004a;
+  height: 76%;
+  
+}
+
+.bod{
+  border-radius: 5px 5px;
+}
+
+.wi100{
+  width:100%;
+}
+
+
+.banner2{
+	background-image: url('../public/img/banner12.jpg');background-size: cover;background-position: center;height: 360px;background-attachment: fixed;
+}
+
+@media(max-width:500px){
+  .banner2{
+      background-image: url('../public/img/banner12.jpg');
+      background-size: 200% 100%;
+      background-position: center;
+      background-attachment: fixed;
+      height: 500px;
+  }
+}
+
+
+
+
+.font1{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.bgblack{
+  background-color: black;
+}
+
+.bocol{
+  border-color:  #030b31;
+}
+
+*{
+  scroll-behavior: smooth;
+}
